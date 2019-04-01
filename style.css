@@ -1,0 +1,118 @@
+/* 
+
+mid purple: #9650C4 rgb(150, 80, 196)
+dark purple: #40125E rgb(64, 18, 94)
+light green: #ffffcc rbg(255, 255, 204)
+bright green: #95cc1f rgb(149, 204, 31)
+muted mid green: #485e40 rgb(72, 94, 64)
+dark green: #2f3d2a rgb(47, 61, 42)
+adrk brown: #301710 rgb(48, 23, 16)
+
+*/
+* { 
+	box-sizing: border-box;
+}
+body {
+	background-image: url('images/subtle_white_feathers.png');
+	font-family: 'Lato', sans-serif;
+	color: #301710;
+	font-size: 16px;
+}
+nav {
+	background-color: #95cc1f;
+	padding: 20px;
+	text-align: right;
+	position: sticky; 
+	top: 0;
+}
+nav ul {
+	width: 80%; margin: auto;
+}
+nav li {
+	padding-left: 20px;
+	text-transform: uppercase;
+}
+nav a {	
+	text-decoration: none;
+	color: #2f3d2a;
+	font-weight: bold;
+}
+nav a:hover {	
+	color: #ffffcc;
+}
+header {
+	width: 100%;
+	margin: 0 auto;
+	padding: 60px 80px;
+}
+main {
+	width: 100%;
+	margin: 0 auto;
+	min-height: 80vh;
+	background-image: url('images/dragon_light.svg');
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+
+}
+section, aside {	
+	padding: 30px 80px;
+}
+.wave {
+	background-image: url('images/waves1.png');
+	background-repeat: repeat-x;
+	min-height: 200px;
+	margin-bottom: 20px;
+}
+.wave2 {
+	background-image: url('images/waves2.png');
+}
+.wave3 {
+	background-image: url('images/waves3.png');
+}
+footer {
+	background-color: #485e40;
+	width: 100%;
+	margin: 0 auto;
+	padding: 40px;
+}
+ul {
+	list-style:disc; 
+	margin-left: 20px;
+}
+li { 
+	margin-left: 20px;
+	margin-bottom: .6em; }
+h1, h2, h3, h4 {font-family: 'Staatliches', sans-serif; color: #333; margin: 24px 0 10px 0;}
+h1 {
+	font-size: 48px;
+}
+h2 {
+	font-size: 32px;
+}
+h3 {
+	margin-top: 3em;
+	font-size: 18px;
+}
+
+nav ul, footer ul {list-style: none;}
+nav li, footer li { display: inline-block; }
+
+a {
+	color: #40125E;
+	text-decoration: none;
+}
+a:hover {
+	color: #9650C4;
+}
+p, br {
+	line-height: 1.4em;
+}
+p {margin: .4em 0 1.2em 0;}
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #ffffcc;
+}
